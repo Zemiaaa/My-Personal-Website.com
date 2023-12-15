@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c250a4f956.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/aa.png" class = "logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Hobbies</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Hi there!</p>
+            <h1>My name is <span>Maju</span></h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/0.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm a dedicated student who wants to pursue knowledge and develop a lifelong curiosity. My academic journey is motivated by my passion for Web and mobile applications, as I am currently totally involved in the world of information technology. Being a lifelong learner, I enjoy the challenges that come with being a student and look forward to every class, assignment, and late-night study session.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        
+                        <li><span>Adaptability</span><br>Openness to learning new skills<br>Flexibility in a changing environment<br>Adaptability to Change</li>
+                        <li><span>Entrepreneurial Skills</span><br>Business and Marketing Knowledge<br>Risk-taking and Initiative</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        
+                        <li><span>Primary School</span><br>Rosario Elementary School (2009)<br>Sta. Catalina Central School (2013)</li>
+                        <li><span>Secondary School</span><br>Sta. Catalina National High School (2016)<br>Manuel S. Enverga University Foundation - CANDELARIA (2020)<br>Southern Luzon State University - TIAONG (2022)<br>Manuel S. Enverga University Foundation - LUCENA (2023)</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------services---------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Hobbies</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-yarn"></i>
+                <h2>Crocheting</h2>
+                <p>Making clothes and accessories is just one aspect of crocheting; for me, it's a means to express my individuality and sense of style. My inspirations, my feelings, and occasionally even a narrative are conveyed through the colors and patterns I use. Giving handmade items to loved ones and seeing the joy and love in their eyes is an unbeatable source of satisfaction.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-book"></i>
+                <h2>Reading Stories</h2>
+                <p>Reading is a basic and endless part of human culture because it is a multifaceted activity that entertains, ignites the imagination, develops empathy, speeds up learning, releases emotions, encourages connection and communication, challenges the mind, and provides a relaxing escape.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop"></i>
+                <h2>Watching Dramas</h2>
+                <p>Drama watching has advantages because it presents entertainment, emotional release, cultural understanding, empathy building, stress relief, aesthetic appreciation, improved storytelling abilities, chances to learn a language, and an environment for social interaction and shared experiences.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----portfolio----->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/4.png" alt="">
+                <div class="layer">
+                    <h3>Social Media Acc</h3>
+                    <p>FB: Marjorie Gale Arizo<br>TIKTOK: zzemia<br>IG: _mrjjjjj</p>
+                    <p>Let's keep contact!</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/8.png" alt="">
+                <div class="layer">
+                    <h3>Games Account</h3>
+                    <p>GENSHIN: Syn<br>CODM: OS Zemia<br>ML: Syn</p>
+                    <p>Make the connections!</p>
+                    <a href="#"><i class="fa-solid fa-headset"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!--------contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>marjoriegalearizo@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0946 - 929 - 9268</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/marjoriegale.arizo/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/_mrjjjjj/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@zzemiaa?lang=en"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
